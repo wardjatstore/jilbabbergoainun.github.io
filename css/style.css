@@ -1,0 +1,716 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-color: none;
+} 
+.navbar {
+    background-color: rgb(61, 48, 48);
+}
+.navbar-brand {
+    font-size: 30px;
+    line-height: 50px;
+    color: white
+}
+.nav-link {
+    color: white;
+    font-size: 24px;
+}
+.container {
+    margin: 0 auto;
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    background-size: auto;
+    height: 660px;
+    position: relative;
+}
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+    
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0,0,0,0.5);
+    bottom: 0;
+}
+.jumbotron .judul {
+    color: white;
+    text-align: right;
+    margin-top: 150px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+}
+.judul h1 {
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.judul h1 span {
+    font-weight: 500;
+    color: rgb(252, 61, 124);
+}
+.judul h2 {
+    margin-bottom: 20px;
+}
+.judul h2 span {
+    color: rgb(252, 61, 124);
+}
+.judul h4 {
+    padding-bottom: -50px;
+}
+.judul h4 span {
+    color: rgb(252, 61, 124);
+    font-weight: bold;
+}
+
+
+/* Leads */
+.lead {
+    background-color: #ffd9e5;
+    margin-top: -32px;
+}
+.judul-lead {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.lead h4 {
+    color: black;
+}
+.lead h3 {
+    color: rgb(252, 61, 124);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.lead p {
+    word-spacing: 10px;
+    text-align: justify;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.lead h4 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.lead h4 span {
+    color: green;
+}
+.img-lead {
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+.clear {
+    clear: left;
+}
+
+/* offer */
+.offer {
+    background-image: url(../img/bc.jpg);
+    margin-top: -8px; 
+    padding-bottom: 20px;
+}
+.offer h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.col-4 {
+    width: 25%;    
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.col-4 h5 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+.col-4 p {
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 3px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 94px;
+    font-size: 70px;
+    margin: 0 auto;
+    color: royalblue;
+}
+.row {
+    padding-bottom: 10px;
+}
+.col-md {
+    padding-bottom: 20px
+}
+.icon:hover {
+    transform: scale(1.05);
+}
+.card {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+.container p {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.container p span {
+    font-weight: bold;
+}
+.judul-offer2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.container h5 {
+    text-align: center;
+}
+.container h6 {
+    text-align: center;
+}
+.container .bold {
+    color: black;
+}
+.container h5 .bold {
+    font-weight: bold;
+}
+.container p .bold {
+    font-weight: bold;
+}
+.offer3 {
+    margin-bottom: 30px;
+}
+
+/* Pricing */
+.pricing {
+    background-color: #ffd9e5;
+    padding-bottom: 30px;
+}
+.pricing h3 {
+    text-align: center;
+    padding-top: 50px;
+    color: royalblue;
+}
+.price3 {
+    color: red;
+    font-size: 16px;
+}
+.price4 {
+    color: green;
+    font-size: 30px;
+}
+.price5 {
+    color: darkblue;
+    font-size: 20px;
+}
+.price6 {
+    font-size: 20px;
+}
+.price7 {
+    font-size: 20px;
+    color: green;
+}
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* testi */
+.testi {
+    background-image: url(../img/bc.jpg);
+    padding-bottom: 30px;
+}
+.testi h3 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.testi img {
+    width: 600px;
+    margin-left: 270px;
+    margin-bottom: 40px;
+}
+
+
+ /* whatsapp */
+ .datainput{position:relative;margin:5px 0 20px}.datainput p{font-size:12px;background:#eee;display:inline-block;padding:5px 15px;border-radius:.5rem}.whatsapp-form textarea{min-height:120px}.datainput select{padding:12px 0;color:#555;font-size:14px;width:100%;border:0;border-bottom:1px solid #ddd;outline:none;background:#fff}.datainput input,.datainput textarea{font-size:15px;padding:15px 0;display:block;width:100%;border:none;border-bottom:1px solid #ddd}.datainput input:focus,.datainput textarea:focus{outline:none}.datainput label{color:#999;font-size:14px;font-weight:400;position:absolute;pointer-events:none;left:0;top:18px;transition:.2s ease all}.datainput input:focus~label,.datainput input:valid~label,.datainput textarea:focus~label,.datainput textarea:valid~label{top:-10px;font-size:14px;color:#21a51f}#notif-license span{font-size:40px}#notif-license{display:none;position:fixed}.bar{position:relative;display:block;width:100%}.bar:before,.bar:after{content:'';height:2px;width:0;bottom:1px;position:absolute;background:#21a51f;transition:.2s ease all}.bar:before{left:50%}.bar:after{right:50%}.datainput input:focus~.bar:before,.datainput input:focus~.bar:after,.datainput textarea:focus~.bar:before,.datainput textarea:focus~.bar:after{width:50%}.indigox{background:#3f51b5}.orangex{background:#ff9800}.pinkx{background:#e91e63}.bluex{background:#2196F3}.purplex{background:#9c27b0}.redx{background:#F44336}.greenx{background:#4CAF50}.highlight{position:absolute;height:50%;width:100px;top:25%;left:0;pointer-events:none;opacity:.5}.datainput input:focus~.highlight,.datainput textarea:focus~.highlight{animation:inputHighlighter .3s ease}.datainput input:focus~label,.datainput input:valid~label,.datainput textarea:focus~label,.datainput textarea:valid~label{top:-10px;font-size:13px;color:#21a51f}
+
+ /* Default Whatsapp Form CSS by www.idblanter.com */
+ form.whatsapp-form {
+     box-shadow: 0 1px 6px rgba(32,33,36,.28);
+     border-radius: .5rem;
+     padding: 20px;
+     box-sizing: border-box;
+     color: #444;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+  .whatsapp-form a.send_form {
+     color: #fff;
+     background: #21a51f;
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px 25px;
+     border-radius: .3rem;
+     font-weight: 700;
+     letter-spacing: .5px;
+     font-size: 15px;
+ }
+ #text-info span {
+     display: block;
+     padding: 10px 15px;
+     text-align: center;
+     font-weight: 700;
+     margin: 15px 0;
+     border-radius: .5rem;
+ }
+ #text-info span.yes {
+     background: #c6ffc5;
+     color: #0ea904;
+ }
+ #text-info span.no {
+     background: #ffc5c5;
+     color: #ce0404;
+ }
+ .whatsapp-form{
+   width:100%;
+   max-width:700px;
+   margin:0 auto;
+   box-sizing:border-box;
+ }
+
+ /* garansi */
+ .garansi {
+     background-color: #ffd9e5;
+     padding-bottom: 30px;
+ }
+.garansi-img {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.garansi-item {
+    text-align: center;
+    margin-top: 50px;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.list-garansi {
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+.list-garansi li {
+    font-size: 18px;
+    word-spacing: 5px;
+    margin: 15px;
+}
+.list-garansi span {
+    font-weight: bold;
+    color: green;
+}
+.deliv-item {
+    text-align: center;
+    color: royalblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.delivery {
+    width: 600px;
+    margin-left: 230px;
+    margin-bottom: 25px;
+}
+.icon-deliv {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* kontak */
+.kontak {
+    background-color: rgb(61, 48, 48);
+    text-align: center;
+    color: #666;
+    position: relative;
+    border: 1px solid;
+}
+.kontak h3 {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.boxmedsos {
+    margin-bottom: -70px;
+}
+.box-2 {
+    display: inline-block;
+    margin: 10px;
+}
+.box-2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box-2 h5, h4 {
+    color: #fff;
+}
+.icon-contact {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px
+}
+.icon-contact:hover {
+    color: darkorange;
+}
+.call {
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.call:hover {
+    color: darkorange;
+}
+.email {
+    color: #fff;
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.email:hover {
+    color: darkorange;
+}
+.alamat {
+    width: 400px;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.col-wa {
+    font-size: 70px;
+    margin-left: 20px;
+}
+.col-alamat {
+    font-size: 70px;
+    margin-left: 100px;
+}
+.col-email {
+    font-size: 70px;
+}
+.alamat:hover {
+    color: darkorange;
+}
+.medsos {
+    margin: 10px;
+}
+.box-2 a {
+    color: #fff;
+    box-shadow: none;
+}
+.col-medsos {
+    margin-top: 50px;
+}
+
+/* footer */
+
+.footer p {
+    color: darkgray;
+}
+.footer p span {
+    color: darkorange;
+}
+
+/* overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .8s;
+    text-align: center;
+    padding: 100px 0;
+}
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+}
+.overlay img {
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.8);
+}
+.overlay:target img {
+    animation: zoomDanFade 1s;
+}
+.overlay .close {
+    position: absolute;
+    bottom: 55px;
+    left: 47%;
+    color: white;
+    text-shadow: none;
+    background-color: black;
+    border: 1px solid white;
+    line-height: 20px;
+    padding: 5px;
+    opacity: 0;
+}
+.overlay:target .close {
+    animation: slideDownFade .5s .5s forwards;
+}
+
+.overlay:target .next,
+.overlay:target .prev {
+    animation: fadeAjah .5s .5s forwards;
+}
+/* navigasi */
+.next, .prev {
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/next.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 44%;
+    margin-left: 30px;
+    opacity: 0;
+}
+.prev {
+    background-image: url(../img/prev.png);
+    margin-left: -100px;
+}
+
+
+
+
+/* animasi */
+@keyframes zoomDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes slideDownFade {
+    0% {
+        opacity: 0;
+        margin-bottom: -20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes fadeAjah {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar {
+    }
+    .collapse {
+        display: none;
+    }
+    .jumbotron {
+        margin-top: 50px;
+    }
+    .lead3 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .jumbotron .judul {
+        margin-top: 0;
+        text-align: center;
+    } 
+    .judul h1 {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    .lead1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .judul h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        line-height: 35px;
+    }
+    .judul-lead {
+        font-size: larger;
+        line-height: 35px;
+    }
+    .judul-offer2 {
+        line-height: 40px;
+        margin-top: -30px;
+    }
+    .offer3 {
+        line-height: 30px;
+    }
+    .img-lead {
+        float: none;
+        width: 380px;
+    }
+    .problem-lead {
+        font-size: smaller;
+        padding-bottom: 35px;
+    }
+    .lead p {
+        margin-top: -10px;
+    }    
+    .isi-lead {
+        line-height: 35px;
+    }
+    .offer {
+        margin-top: -30px;
+    }
+    .col-4 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icon {
+        margin-left: -20px;
+    }
+    .ekonomis {
+        margin-left: -10px;
+    }
+    .col-4 p {
+        width: 300px;
+        text-align: center;
+        margin-left: -120px;
+    }
+    .price {
+        margin-top: -20px;
+    }
+    .price2 {
+        line-height: 30px;
+    }
+    .price6 {
+        padding-top: 10px;
+    }
+    .modal-dialog {
+        width: 340px;
+    }
+    .modal-title {
+        font-size: small;
+    }
+    #wa_textarea {
+        margin-top: -20px;
+    }
+    .testi img {
+        margin-left: 0;
+    }
+    .garansi-img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+    }
+    .garansi-item {
+        margin-top: -5px;
+    }
+    .list-garansi {
+        text-align: justify;
+        width: auto;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .list-garansi li {
+        font-size: medium;
+    }
+    .delivery {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icon-deliv {
+        width: 70%;        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alamat {
+        width: 300px;
+        margin-left: 0;
+    }
+    .call {
+        margin-left: 0px;
+    }
+    .email {
+        margin-left: 0;
+    }
+    .col-alamat {
+        margin-left: 0;
+    }
+    .col-alamat, .col-email {
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+    .kontak h3 {
+        margin-top: 10px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .overlay img {
+        max-height: 80%;
+        margin-left: -35px;
+    }
+    .overlay .close {
+        left: 35%;
+        bottom: 170px;
+    }
+    .next, .prev {
+        top: 36%;
+        margin-left: -50px;
+        opacity: 0;
+}
