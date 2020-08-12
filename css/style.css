@@ -80,7 +80,7 @@
 
 /* Leads */
 .lead {
-    background-color: #fcb4b5;
+    background-color: #fa9c9c;
     margin-top: -32px;
 }
 .judul-lead {
@@ -94,8 +94,8 @@
     color: black;
 }
 .lead h3 {
-    color: rgb(252, 61, 124);
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    color: royalblue;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .lead p {
     word-spacing: 10px;
@@ -206,7 +206,7 @@
 
 /* Pricing */
 .pricing {
-    background-color: #fcb4b5;
+    background-color: #fa9c9c;
     padding-bottom: 30px;
 }
 .pricing h3 {
@@ -314,7 +314,7 @@
 
  /* garansi */
  .garansi {
-     background-color: #fcb4b5;
+     background-color: #fa9c9c;
      padding-bottom: 30px;
  }
 .garansi-img {
@@ -654,7 +654,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     .garansi-item {
         margin-top: -5px;
